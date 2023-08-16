@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #dfe8f5;
+}
+.container{
+    width: 330px;
+    padding: 2rem 1rem;
+    background-color: #fff;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+
+}
+.container h1{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.2rem;
+
+}
+form input{
+    width: 92%;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid white;
+    background-color: #e4e4e4;
+
+}
+button{
+    width: 90%;
+    margin-top: 1.8rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: rgb(17, 107, 143);
+    padding: 12px 10px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+button:hover{
+    background-color:rgba(17, 107, 143,.877) ;
+    color: white;
+}
+.terms {
+    margin-top: 20px;
+}
+.terms label{
+    font-size: 13px;
+    width: 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+    color: black;
+}
+.terms a{
+    font-size: 13px;
+    text-decoration: none;
+    color:  rgb(0, 84, 117);
+    font-weight: 600;
+}
+.member{
+    font-size: 15px;
+    margin-top: 18px;
+    color: #201f1f;
+}
+.member a{
+    text-decoration: none;
+    color:  rgb(6, 81, 110);
+    font-weight: 600;
+
+}
+
+/* login page */
+.recover{
+    text-align: right;
+    font-size: 13px;
+    margin: .3rem 1.4rem 0 0;
+
+}
+.recover a{
+    text-decoration: none;
+    color: #294866;
+    font-weight: 500;
+}
